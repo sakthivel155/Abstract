@@ -1,0 +1,12 @@
+.default-btn {
+    outline: none;
+    border: none;
+    background: none;
+    user-select: none;
+    display: inline-block;
+    text-align: center;
+}
+.default-input-search{
+    border: none;
+    outline: none;
+}

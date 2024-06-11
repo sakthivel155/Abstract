@@ -1,0 +1,16 @@
+/* font size  */
+.f20 { font-size: 20px;}
+.f24 { font-size: 24px;}
+.f80 { font-size: 80px;}
+
+:root{
+    /* border radius */
+    --br-10 : 10px;
+    --br-5 : 5px;
+
+
+    /* Measurement */
+    --w-full :100%;
+    --w-half :50%;
+    
+}

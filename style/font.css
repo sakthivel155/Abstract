@@ -3,25 +3,21 @@
     src: url("../asset/font/GT\ America\ Light.ttf");
     font-display: swap;
 }
-
 @font-face {
     font-family:"GT_Amarica_regular";
     src: url("../asset/font/GT-America-Standard-Regular.ttf");
     font-display: swap;
 }
-
 @font-face {
     font-family: "GT_Amarica_medium" ;
     src: url("../asset/font/GT\ America\ Medium.ttf");
     font-display: swap;
 }
-
 @font-face {
     font-family: "GT_Amarica_bold";
     src: url("../asset/font/GT-America-Standard-Bold.ttf");
     font-display: swap;
 }
-
 :root{
     --font-light: GT_Amarica_light, "sans-serif";
     --font-regular: GT_Amarica_regular, "sans-serif";

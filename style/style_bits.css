@@ -1,8 +1,11 @@
 /* font size  */
+.f16 { font-size: 16px;}
 .f20 { font-size: 20px;}
 .f24 { font-size: 24px;}
 .f80 { font-size: 80px;}
 
+
+.mt-30 { margin-top:30px;}
 :root{
     /* border radius */
     --br-10 : 10px;

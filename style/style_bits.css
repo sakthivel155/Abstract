@@ -6,9 +6,17 @@
 
 
 .mt-30 { margin-top:30px;}
+
+/* size */
+
+.s35 { width: 35px; height: 35px; }
+.s90 { width: 90px; height: 90px; }
+
+
 :root{
     /* border radius */
     --br-10 : 10px;
+    --br-8 :8px;
     --br-5 : 5px;
 
 

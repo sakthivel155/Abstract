@@ -1,26 +1,28 @@
-.default-input{
-    border: none;
-    outline: none;
-}
-.arrow{
-    color:var(--c-black);
-    font-size: 26px;
-    transition: color 300ms;
+.default-input {
+	border: none;
+	outline: none;
 }
 
-.search-box:hover .arrow{
-    color:var(--c-violet);
-    cursor:default;
-    transition: color 300ms;
-}
-.search-box:hover{
-    border:1px solid var(--c-violet);
-    cursor:text;
-    transition: border 300ms;
+.arrow {
+	color: var(--c-black);
+	font-size: 26px;
+	transition: color 300ms;
 }
 
-.search-input::placeholder{
-    font-size:20px;
-    color:#999999;
-    font-family: var(--font-regular);
+.search-box:hover .arrow {
+	color: var(--c-violet);
+	cursor: default;
+	transition: color 300ms;
+}
+
+.search-box:hover {
+	border: 1px solid var(--c-violet);
+	cursor: text;
+	transition: border 300ms;
+}
+
+.search-input::placeholder {
+	font-size: 20px;
+	color: #999999;
+	font-family: var(--font-regular);
 }

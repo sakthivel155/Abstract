@@ -1,26 +1,30 @@
 @font-face {
-    font-family: "GT_Amarica_light";
-    src: url("../asset/font/GT\ America\ Light.ttf");
-    font-display: swap;
+	font-family: "GT_Amarica_light";
+	src: url("../asset/font/GT\ America\ Light.ttf");
+	font-display: swap;
 }
+
 @font-face {
-    font-family:"GT_Amarica_regular";
-    src: url("../asset/font/GT-America-Standard-Regular.ttf");
-    font-display: swap;
+	font-family: "GT_Amarica_regular";
+	src: url("../asset/font/GT-America-Standard-Regular.ttf");
+	font-display: swap;
 }
+
 @font-face {
-    font-family: "GT_Amarica_medium" ;
-    src: url("../asset/font/GT\ America\ Medium.ttf");
-    font-display: swap;
+	font-family: "GT_Amarica_medium";
+	src: url("../asset/font/GT\ America\ Medium.ttf");
+	font-display: swap;
 }
+
 @font-face {
-    font-family: "GT_Amarica_bold";
-    src: url("../asset/font/GT-America-Standard-Bold.ttf");
-    font-display: swap;
+	font-family: "GT_Amarica_bold";
+	src: url("../asset/font/GT-America-Standard-Bold.ttf");
+	font-display: swap;
 }
-:root{
-    --font-light: GT_Amarica_light, "sans-serif";
-    --font-regular: GT_Amarica_regular, "sans-serif";
-    --font-medium: GT_Amarica_medium, "sans-serif";
-    --font-bold: GT_Amarica_bold, "sans-serif;"
+
+:root {
+	--font-light: GT_Amarica_light, "sans-serif";
+	--font-regular: GT_Amarica_regular, "sans-serif";
+	--font-medium: GT_Amarica_medium, "sans-serif";
+	--font-bold: GT_Amarica_bold, "sans-serif;"
 }

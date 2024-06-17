@@ -1,20 +1,29 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-body{
-        font-family: var(--font-regular);
-        font-size: 14px;  
-        line-height: 1.5;
-        color: var(--c-black);
-}
-a {
-    color: var(--c-violet);
-    text-decoration: none;
-    font-size: 20px;
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
 }
 
-a:hover{
-    text-decoration: underline;
+body {
+    
+	font-family: var(--font-regular);
+	font-size: 14px;
+	line-height: 1.5;
+	color: var(--c-black);
+}
+.container{
+	max-width: 1600px;
+	width: 100%;
+	padding:0  auto;
+	margin: 0 auto;
+}
+
+a {
+	color: var(--c-violet);
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a:hover {
+	text-decoration: underline;
 }

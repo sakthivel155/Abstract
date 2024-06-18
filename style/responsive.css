@@ -28,6 +28,9 @@
 	.category-list-items {
 		margin: 0 4em;
 	}
+	.category-container { 
+		margin: 100px 0px;
+	}
 	.title-l,.content-l{
 		font-size: 20px;
 	}
@@ -41,6 +44,9 @@
 	.category-list-items {
 		margin: 0 2em;
 	}
+	.category-container { 
+		margin: 70px 0px;
+	}
 	.title-l,.content-l{
 		font-size: 18px;
 	}
@@ -49,6 +55,7 @@
 		height: 80px;
 		margin-right: 15px;
 	}
+	
 	.footer-list-columns {
 		flex-wrap: wrap;
 	}
@@ -105,7 +112,7 @@
 		margin: 0 1em;
 	}
 	.title-l,.content-l,.f20{
-		font-size: 12px;
+		font-size: 18px;
 	}
 	
 	.s90{
@@ -146,5 +153,24 @@
 		display:flex;
 		align-items:center;
 		gap:5px;
+	}
+	.category-list-items {
+		
+		row-gap: 30px;	
+	}
+	.category-container { 
+		margin: 40px 0px;
+	}
+	.title-l,.content-l,.f20{
+		font-size: 14px;
+	}
+	
+	.s90{
+		width: 70px;
+		height: 70px;
+		margin-right: 15px;
+	}
+	.footer-column > a ,.footer-column-copyright >p{
+		font-size: 14px;
 	}
 }

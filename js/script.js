@@ -1,27 +1,23 @@
 function focusInput() {
-    let searchInput = document.getElementById('search-input');
-    searchInput.focus();
+    document.getElementById('search-input').focus();
 }
+
 const menu = document.querySelector('.bx-menu');
 const searchBox = document.querySelector('.bx-search');
 const mobileNav = document.querySelector('.mobile-nav');
 const searchClose = document.querySelector('.search-close');
+const navbarContainer = document.querySelector('.navbar-container');
+const mobileSearchBox = document.querySelector('.mobile-searchBox');
 
+function toggleDisplay(element) {
+    element.style.display = element.style.display === 'none' ? 'block' : 'none';
+}
 
+function toggleSearchDisplay() {
+    navbarContainer.style.display = navbarContainer.style.display === 'block' ? 'none' : 'block';
+    mobileSearchBox.style.display = mobileSearchBox.style.display === 'none' ? 'flex' : 'none';
+}
 
-menu.addEventListener('click', () => {
-    mobileNav.style.display = mobileNav.style.display === 'none' ? 'block' : 'none';
-});
-
-searchBox.addEventListener('click', () => {
-    document.querySelector('.navbar-container').style.display =
-        document.querySelector('.navbar-container').style.display === 'block' ? 'none' : 'block';
-    document.querySelector('.mobile-searchBox').style.display = 
-        document.querySelector('.mobile-searchBox').style.display === 'none' ? 'flex' : 'none';
-});
-searchClose.addEventListener('click', () => {
-    document.querySelector('.mobile-searchBox').style.display = 
-        document.querySelector('.mobile-searchBox').style.display === 'none' ? 'flex' : 'none';
-        document.querySelector('.navbar-container').style.display =
-        document.querySelector('.navbar-container').style.display === 'block' ? 'none' : 'block';
-});
+menu.addEventListener('click', () => toggleDisplay(mobileNav));
+searchBox.addEventListener('click', toggleSearchDisplay);
+searchClose.addEventListener('click', toggleSearchDisplay);
